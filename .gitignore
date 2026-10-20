@@ -1,0 +1,16 @@
+# Artefactos generados
+*.npz
+*.pt
+src/pred_test_*.txt
+src/ablation_sensores.csv
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Sistema
+.DS_Store
+Thumbs.db
