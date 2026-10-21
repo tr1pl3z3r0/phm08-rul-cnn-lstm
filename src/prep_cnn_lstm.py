@@ -8,7 +8,7 @@ from sklearn.cluster import KMeans
 
 # Rutas relativas a la carpeta del script (funciona desde cualquier terminal)
 DIR = os.path.dirname(os.path.abspath(__file__))
-TRAIN, TEST = os.path.join(DIR, "train.txt"), os.path.join(DIR, "test.txt")
+TRAIN, TEST = os.path.join(DIR, "..", "data", "train.txt"), os.path.join(DIR, "..", "data", "test.txt")
 W = 30            # largo de ventana (ciclos)
 RUL_MAX = 130     # RUL lineal por tramos (Heimes 2008)
 VAL_FRAC = 0.2
